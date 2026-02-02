@@ -84,7 +84,7 @@ Large ensemble models can be computationally expensive.
 
 **Mitigation:**  
 - Limiting the number of estimators
-- Feature dimensionality reduction
+- Feature dimensionality reduction (PCA)
 - Early stopping
 - Dataset sampling for large-scale data
 
