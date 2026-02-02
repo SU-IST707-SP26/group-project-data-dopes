@@ -16,7 +16,10 @@ What will make our approach different is the use of a data-driven predictive mod
 If successful, this project could help reduce financial losses caused by loan defaults while improving the overall quality of lending decisions. For lenders, more reliable predictions could support better risk management and long-term financial stability. For borrowers, especially those who may not fit neatly into traditional approval rules, improved decision-making could lead to fairer and more consistent evaluations. Together, these benefits highlight the potential importance of accurate default prediction for creating a lending process that is both financially sound and socially responsible.
 
 ## Literature Review
-
+Loan default prediction is usually treated as a binary classification problem. Traditional approaches often use logistic regression because it is simple and easy to interpret, while more recent studies show that tree-based and ensemble models such as decision trees, random forests, and XGBoost tend to achieve better predictive performance.[^1]<br>
+A common limitation in current work is that many studies mainly focus on improving overall accuracy or AUC, without enough attention to class imbalance or the trade-off between catching defaulters and avoiding false alarms.<br>
+Our approach differs by directly comparing a simple baseline model (logistic regression) with several advanced models using the same preprocessing steps and evaluation setup. We focus on F1-score and ROC-AUC, which are more suitable for imbalanced data, and we will also examine feature importance to better understand model behavior.<br>
+Banks and financial institutions are the main stakeholders because they use these prediction models to decide whether to approve loans and manage credit risk. They need models that can accurately identify high-risk borrowers while still being interpretable enough to support internal decisions and meet regulatory requirements.
 
 ## Data & Methods
 
@@ -90,3 +93,4 @@ Large ensemble models can be computationally expensive.
 - Early stopping
 - Dataset sampling for large-scale data
 
+[^1]:[Y. Zhou, Loan Default Prediction Based on Machine Learning Methods, Proceedings of the 3rd International Conference on Big Data Economy and Information Management (BDEIM 2022)](https://eudl.eu/doi/10.4108/eai.2-12-2022.2328740)
