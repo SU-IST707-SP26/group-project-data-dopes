@@ -20,6 +20,18 @@ If successful, this project could help reduce financial losses caused by loan de
 
 ## Data & Methods
 
+<b>Dataset URL:</b> https://www.kaggle.com/datasets/nikhil1e9/loan-default
+
+<b>Summary:</b> The dataset contains 255,347 rows and 18 columns in total.
+
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/2bbf7382-2b4d-441f-86d8-b62e8e4add56" />
+
+### Data Provenance:<br>
+Source -> https://www.coursera.org/projects/data-science-coding-challenge-loan-default-prediction<br>
+License -> <a href="https://creativecommons.org/publicdomain/zero/1.0/"> CC0: Public Domain </a> [No Copyright]<br>
+<i>The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.</i>
+
 
 ## Project Plan
 
