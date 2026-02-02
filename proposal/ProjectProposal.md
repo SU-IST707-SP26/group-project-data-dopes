@@ -1,7 +1,7 @@
 # Predicting Loan Deafult Risk: A Data-Driven Approach to Responsible Lending
 
 ## Team Members
- Point of Contact: Ashish Rajeev Chaudhary (github ID)
+ Point of Contact: Ashish Rajeev Chaudhary ( AshishRChaudhary )
  
  Hazem Ani (hazemani), Kasem Chaisathitwanit (github ID), Prerna Bharti (github ID)
 
