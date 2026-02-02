@@ -47,3 +47,44 @@ Period|Activity|Milestone
 
 
 ## Risks
+
+### 1. Overfitting/Poor generalization
+
+**Risk:**  
+Tree-based ensemble models may overfit the training data due to excessive model complexity.
+
+**Mitigation:**  
+- Restricted tree depth (`max_depth`)
+- Increased minimum samples per leaf (`min_samples_leaf`)
+- Preference for shallow trees with more estimators
+
+### 2. Data Leakage
+
+**Risk:**  
+Use of future or target-related information during training results in overly optimistic model performance.
+
+**Mitigation:**  
+- Train–test split performed prior to preprocessing
+- Scaling, encoding, and imputation fitted only on training data
+- Exclusion of target-derived features
+
+### 4. Class Imbalance
+
+**Risk:**  
+Model bias toward the majority class leads to poor minority-class performance.
+
+**Mitigation:**  
+- Stratified train–test splits
+- Resampling techniques (SMOTE, undersampling)
+
+ ### 7. Computational Constraints
+
+**Risk:**  
+Large ensemble models can be computationally expensive.
+
+**Mitigation:**  
+- Limiting the number of estimators
+- Feature dimensionality reduction
+- Early stopping
+- Dataset sampling for large-scale data
+
