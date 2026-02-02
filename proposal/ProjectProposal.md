@@ -68,7 +68,7 @@ Use of future or target-related information during training results in overly op
 - Scaling, encoding, and imputation fitted only on training data
 - Exclusion of target-derived features
 
-### 4. Class Imbalance
+### 3. Class Imbalance
 
 **Risk:**  
 Model bias toward the majority class leads to poor minority-class performance.
@@ -77,7 +77,7 @@ Model bias toward the majority class leads to poor minority-class performance.
 - Stratified train–test splits
 - Resampling techniques (SMOTE, undersampling)
 
- ### 7. Computational Constraints
+ ### 4. Computational Constraints
 
 **Risk:**  
 Large ensemble models can be computationally expensive.
