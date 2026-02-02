@@ -3,7 +3,7 @@
 ## Team Members
  Point of Contact: Ashish Rajeev Chaudhary ( AshishRChaudhary )
  
- Hazem Ani (hazemani), Kasem Chaisathitwanit (github ID), Prerna Bharti (github ID)
+ Hazem Ani (hazemani), Kasem Chaisathitwanit (LuckyFriend), Prerna Bharti (github ID)
 
 
 
@@ -32,6 +32,8 @@ License -> <a href="https://creativecommons.org/publicdomain/zero/1.0/"> CC0: Pu
 <i>The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.</i>
 
+### Methods<br>
+Since loan default prediction involves a binary target, this problem is treated as a classification task. We will begin with a baseline model using logistic regression and then apply more advanced models, including decision trees, random forests, XGBoost, and Support Vector Machine (SVM). Before modeling, the data will be preprocessed by handling missing values, encoding categorical variables, and scaling numerical features when necessary. Model performance will be evaluated using k-fold cross-validation, and we will report the average F1-score and ROC-AUC across folds.
 
 ## Project Plan
 
