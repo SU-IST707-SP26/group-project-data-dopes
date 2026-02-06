@@ -3,7 +3,7 @@
 ## Team Members
  Point of Contact: Ashish Rajeev Chaudhary ( AshishRChaudhary )
  
- Hazem Ani (hazemani), Kasem Chaisathitwanit (LuckyFriend), Prerna Bharti (github ID)
+ Hazem Ani (hazemani), Kasem Chaisathitwanit (LuckyFriend), Prerna Bharti (PrernaBharti28)
 
 
 
