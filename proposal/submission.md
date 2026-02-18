@@ -18,13 +18,13 @@ Beyond identifying which borrowers are more likely to default, the project will 
 If successful, this project will demonstrate how predictive modeling can be combined with practical decision-making tools to create more flexible and inclusive lending strategies. By moving beyond default prediction to evaluate how loans should be structured, the analysis aims to support lending practices that are both financially sound and socially responsible.
 
 ## Literature Review
-Loan default prediction is usually treated as a binary classification problem. Traditional approaches often use logistic regression because it is simple and easy to interpret, while more recent studies show that tree-based and ensemble models such as decision trees, random forests, and XGBoost tend to achieve better predictive performance.[^1]<br>
+Loan default prediction is usually treated as a binary classification problem. Traditional approaches commonly use logistic regression because it is easy to interpret and widely accepted in financial institutions. More recent research shows that machine learning models such as random forests and gradient boosting can improve prediction performance, especially in terms of ROC-AUC.[^1] However, most studies mainly focus on improving accuracy rather than examining the financial impact of lending decisions.
 
-A common limitation in current work is that many studies mainly focus on improving overall accuracy or AUC, without enough attention to class imbalance or the trade-off between catching defaulters and avoiding false alarms.<br>
+In practice, lenders use an actuarial framework that combines Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) to calculate expected loss.[^2] Even so, lending decisions are often reduced to simple cutoff rules, where borrowers are either approved or denied based on predicted risk. Loan size is usually treated as fixed, and there is limited discussion on how adjusting loan amounts could better balance risk and return.
 
-Our approach differs by directly comparing a simple baseline model (logistic regression) with several advanced models using the same preprocessing steps and evaluation setup. We focus on F1-score and ROC-AUC, which are more suitable for imbalanced data, and we will also examine feature importance to better understand model behavior.<br>
+For a mid-size lender that wants to expand access to underserved borrowers, this creates a real challenge. The lender needs to balance two goals: giving more people access to credit while also protecting the company from financial losses. This means they need a model that does more than just predict whether someone will default. The model should also help the lender understand how much money they might gain or lose from each loan. Instead of simply approving or rejecting applicants based on a strict cutoff, the lender could adjust the loan amount based on the borrower’s risk level. This approach could allow more borrowers to receive credit while still keeping the lender financially stable.
 
-Banks and financial institutions are the main stakeholders because they use these prediction models to decide whether to approve loans and manage credit risk. They need models that can accurately identify high-risk borrowers while still being interpretable enough to support internal decisions and meet regulatory requirements.
+While prior research provides strong methods for predicting default, fewer studies connect those predictions to loan-size optimization under clear risk tolerance assumptions. This project aims to bridge that gap by combining default prediction with expected financial value calculations to support more flexible and responsible lending strategies.
 
 ## Data & Methods
 
@@ -99,3 +99,5 @@ Large ensemble models can be computationally expensive.
 - Dataset sampling for large-scale data
 
 [^1]:[Y. Zhou, Loan Default Prediction Based on Machine Learning Methods, Proceedings of the 3rd International Conference on Big Data Economy and Information Management (BDEIM 2022)](https://eudl.eu/doi/10.4108/eai.2-12-2022.2328740)
+
+[^2]:[Expected Loss (EL): Overview, How to Calculate, Importance in Credit Risk Management](https://corporatefinanceinstitute.com/resources/career-map/sell-side/risk-management/expected-loss-definition-calculation-importance/?utm_source=chatgpt.com)
