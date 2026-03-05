@@ -7,7 +7,7 @@
 - [✅] M1.T2 - Download and load Lending Club dataset into project environment (Hazem)
 - [✅] M1.T3 - Remove columns with greater than 30% missing values (Kasem)
 - [✅] M1.T4 - Identify and remove non-predictive or irrelevant columns (Team)
-- [⏳] M1.T5 - Implement missing value imputation strategy
+- [✅] M1.T5 - Implement missing value imputation strategy (Prerna)
 - [✅] M1.T6 - Encode categorical variables (Team)
 - [⏳] M1.T7 - Create finalized modeling dataset and save cleaned version
 
