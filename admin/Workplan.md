@@ -9,10 +9,10 @@
 - [✅] M1.T4 - Identify and remove non-predictive or irrelevant columns (Team)
 - [✅] M1.T5 - Implement missing value imputation strategy (Prerna)
 - [✅] M1.T6 - Encode categorical variables (Team)
-- [⏳] M1.T7 - Create finalized modeling dataset and save cleaned version
+- [⏳] M1.T7 - Create finalized modeling dataset and save cleaned version (Ashish)
 
 ### Milestone 2: Data Cleaning & Preprocessing (3/3/26 - 3/12/26)
-- [ ] M2.T1 - Create financial ratio features (DTI, income-to-loan ratio, etc.)
+- [ ] M2.T1 - Create financial ratio features (DTI, income-to-loan ratio, etc.) (Will do this for policy model)
 - [ ] M2.T2 - Split data into training and test sets
 - [ ] M2.T3 - Scale/normalize numerical features where necessary
 - [ ] M2.T4 - Address class imbalance (class weights or resampling method)
