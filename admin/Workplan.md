@@ -17,7 +17,7 @@
 - [⏳] M2.T4 - Address class imbalance (class weights or resampling method)
 
 ### Milestone 3: Probability of Default Modeling (3/13/26 - 3/23/26)
-- [ ] M3.T1 - Train baseline logistic regression model
+- [⏳] M3.T1 - Train baseline logistic regression model
 - [ ] M3.T2 - Train tree-based model (Random Forest or Gradient Boosting)
 - [ ] M3.T3 - Perform cross-validation on candidate models
 - [ ] M3.T4 - Evaluate models using ROC-AUC, Precision-Recall, and F1-score
