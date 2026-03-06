@@ -7,12 +7,11 @@
 - [✅] M1.T2 - Download and load Lending Club dataset into project environment (Hazem)
 - [✅] M1.T3 - Remove columns with greater than 30% missing values (Kasem)
 - [✅] M1.T4 - Identify and remove non-predictive or irrelevant columns (Team)
-- [✅] M1.T5 - Implement missing value imputation strategy (Prerna)
-- [✅] M1.T6 - Encode categorical variables (Team)
-- [⏳] M1.T7 - Create finalized modeling dataset and save cleaned version (Ashish)
+- [✅] M1.T5 - Encode categorical variables (Team)
+- [⏳] M1.T6 - Create finalized modeling dataset and save cleaned version (Ashish)
 
 ### Milestone 2: Data Cleaning & Preprocessing (3/3/26 - 3/12/26)
-- [ ] M2.T1 - Create financial ratio features (DTI, income-to-loan ratio, etc.) (Will do this for policy model)
+- [✅] M2.T1 - Implement missing value imputation strategy (Prerna)
 - [ ] M2.T2 - Split data into training and test sets
 - [ ] M2.T3 - Scale/normalize numerical features where necessary
 - [ ] M2.T4 - Address class imbalance (class weights or resampling method)
@@ -26,11 +25,12 @@
 - [ ] M3.T6 - Select final model and export predicted probabilities
 
 ### Milestone 4: Financial Model Construction (3/24/26 - 4/3/26)
-- [ ] M4.T1 - Implement loan revenue calculation function (based on amount, rate, term)
-- [ ] M4.T2 - Implement Loss Given Default (LGD) assumption or calculation
-- [ ] M4.T3 - Compute expected profit for each borrower using PD outputs
-- [ ] M4.T4 - Validate expected profit outputs using test cases
-- [ ] M4.T5 - Generate summary statistics of expected profit distribution
+- [ ] M4.T1 - Create financial ratio features (DTI, income-to-loan ratio, etc.) (Will do this for policy model)
+- [ ] M4.T2 - Implement loan revenue calculation function (based on amount, rate, term)
+- [ ] M4.T3 - Implement Loss Given Default (LGD) assumption or calculation
+- [ ] M4.T4 - Compute expected profit for each borrower using PD outputs
+- [ ] M4.T5 - Validate expected profit outputs using test cases
+- [ ] M4.T6 - Generate summary statistics of expected profit distribution
 
 ### Milestone 5: Loan Size Simulation & Optimization (4/4/26 - 4/14/26)
 - [ ] M5.T1 - Create simulated loan size grid
@@ -59,3 +59,10 @@
 - [ ] M8.T4 - Document assumptions and limitations
 - [ ] M8.T5 - Compile appendix (code references, robustness checks)
 - [ ] M8.T6 - Final proofreading and submission
+
+
+## Changelog
+
+### 03/05/2026
+- 🔄 M2.T2 — Moved imputation from M1.T5 to prevent data leakage
+- 🔄 M4.T1 - Moved financial ratio feature creation to Milestone 4
