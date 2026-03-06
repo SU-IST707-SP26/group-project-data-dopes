@@ -13,7 +13,7 @@
 ### Milestone 2: Data Cleaning & Preprocessing (3/3/26 - 3/12/26)
 - [✅] M2.T1 - Split data into training and test sets (Kasem)
 - [✅] M2.T2 - Implement missing value imputation strategy (Prerna)
-- [⏳] M2.T3 - Scale/normalize numerical features where necessary (Ashish and Hazem)
+- [✅] M2.T3 - Scale/normalize numerical features where necessary (Ashish)
 - [⏳] M2.T4 - Address class imbalance (class weights or resampling method)
 
 ### Milestone 3: Probability of Default Modeling (3/13/26 - 3/23/26)
