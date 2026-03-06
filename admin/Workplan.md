@@ -11,10 +11,10 @@
 - [⏳] M1.T6 - Create finalized modeling dataset and save cleaned version (Ashish)
 
 ### Milestone 2: Data Cleaning & Preprocessing (3/3/26 - 3/12/26)
-- [✅] M2.T1 - Implement missing value imputation strategy (Prerna)
-- [ ] M2.T2 - Split data into training and test sets
-- [ ] M2.T3 - Scale/normalize numerical features where necessary
-- [ ] M2.T4 - Address class imbalance (class weights or resampling method)
+- [⏳] M2.T1 - Split data into training and test sets (Kasem)
+- [✅] M2.T2 - Implement missing value imputation strategy (Prerna)
+- [⏳] M2.T3 - Scale/normalize numerical features where necessary
+- [⏳] M2.T4 - Address class imbalance (class weights or resampling method)
 
 ### Milestone 3: Probability of Default Modeling (3/13/26 - 3/23/26)
 - [ ] M3.T1 - Train baseline logistic regression model
