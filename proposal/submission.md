@@ -28,11 +28,231 @@ While prior research provides strong methods for predicting default, fewer studi
 
 ## Data & Methods
 
-<b>Dataset URL:</b> https://www.kaggle.com/datasets/nikhil1e9/loan-default
+<b>Dataset URL:</b> https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv
 
-<b>Summary:</b> The dataset contains 255,347 rows and 18 columns in total.
+<b>Summary:</b> The dataset contains 2,260,668 rows and 151 columns in total.
 
-<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/2bbf7382-2b4d-441f-86d8-b62e8e4add56" />
+<b>Columns Description</b>
+
+#### Loan Dates
+
+| Column         | Description                                                      |
+| -------------- | ---------------------------------------------------------------- |
+| acceptD        | The date the borrower accepted the loan offer                    |
+| creditPullD    | The date Lending Club pulled credit for the loan                 |
+| earliestCrLine | The date the borrower's earliest reported credit line was opened |
+| expD           | The date the listing will expire                                 |
+| listD          | The date the borrower’s application was listed on the platform   |
+| reviewStatusD  | The date the loan application was reviewed by Lending Club       |
+
+---
+
+#### Borrower Information
+
+| Column           | Description                                                 |
+| ---------------- | ----------------------------------------------------------- |
+| annualInc        | Self-reported annual income provided by the borrower        |
+| annual_inc_joint | Combined annual income provided by co-borrowers             |
+| emp_title        | Job title supplied by the borrower                          |
+| empLength        | Employment length in years (0–10, where 10 means 10+ years) |
+| homeOwnership    | Home ownership status (RENT, OWN, MORTGAGE, OTHER)          |
+| addrState        | State provided by the borrower                              |
+| zip_code         | First 3 digits of the borrower’s ZIP code                   |
+| msa              | Metropolitan Statistical Area of the borrower               |
+
+---
+
+#### Loan Information
+
+| Column              | Description                                              |
+| ------------------- | -------------------------------------------------------- |
+| id                  | Unique Lending Club loan ID                              |
+| memberId            | Unique Lending Club borrower ID                          |
+| loanAmnt            | Loan amount applied for by the borrower                  |
+| fundedAmnt          | Amount committed to the loan                             |
+| installment         | Monthly payment if the loan originates                   |
+| term                | Number of payments (36 or 60 months)                     |
+| intRate             | Interest rate on the loan                                |
+| effective_int_rate  | Interest rate adjusted for expected uncollected interest |
+| grade               | Lending Club assigned loan grade                         |
+| subGrade            | Lending Club assigned loan subgrade                      |
+| purpose             | Borrower’s stated purpose for the loan                   |
+| title               | Loan title provided by the borrower                      |
+| desc                | Loan description provided by the borrower                |
+| application_type    | Individual or joint application                          |
+| initialListStatus   | Initial listing status (W or F)                          |
+| reviewStatus        | Listing review status (APPROVED / NOT_APPROVED)          |
+| disbursement_method | Loan disbursement method (CASH or DIRECT_PAY)            |
+
+---
+
+#### Credit Score Information
+
+| Column        | Description                                   |
+| ------------- | --------------------------------------------- |
+| ficoRangeLow  | Lower boundary of borrower’s FICO score range |
+| ficoRangeHigh | Upper boundary of borrower’s FICO score range |
+
+---
+
+#### Credit Utilization & Balances
+
+| Column           | Description                                 |
+| ---------------- | ------------------------------------------- |
+| revolBal         | Total revolving credit balance              |
+| revolUtil        | Revolving credit utilization rate           |
+| total_rev_hi_lim | Total revolving high credit limit           |
+| totalBcLimit     | Total bankcard credit limit                 |
+| totalBalExMort   | Total credit balance excluding mortgage     |
+| total_bal_il     | Total balance of installment accounts       |
+| tot_cur_bal      | Total current balance of all accounts       |
+| tot_hi_cred_lim  | Total credit limit across all accounts      |
+| avg_cur_bal      | Average balance of all accounts             |
+| bcUtil           | Bankcard utilization ratio                  |
+| bcOpenToBuy      | Total open-to-buy credit on bankcards       |
+| all_util         | Balance-to-credit-limit ratio on all trades |
+| il_util          | Installment account utilization ratio       |
+
+---
+
+#### Delinquencies & Public Records
+
+| Column                      | Description                                         |
+| --------------------------- | --------------------------------------------------- |
+| delinq2Yrs                  | Number of 30+ day delinquencies in the past 2 years |
+| delinqAmnt                  | Past-due amount owed on delinquent accounts         |
+| accNowDelinq                | Number of accounts currently delinquent             |
+| num_tl_30dpd                | Accounts currently 30 days past due                 |
+| num_tl_120dpd_2m            | Accounts currently 120 days past due                |
+| num_tl_90g_dpd_24m          | Accounts 90+ days past due in the last 24 months    |
+| mthsSinceLastDelinq         | Months since the last delinquency                   |
+| mths_since_last_major_derog | Months since most recent 90+ day delinquency        |
+| mthsSinceLastRecord         | Months since the last public record                 |
+| pubRec                      | Number of derogatory public records                 |
+| pub_rec_bankruptcies        | Number of bankruptcies                              |
+| tax_liens                   | Number of tax liens                                 |
+| chargeoff_within_12_mths    | Number of charge-offs in the last 12 months         |
+| collections_12_mths_ex_med  | Collections in last 12 months excluding medical     |
+
+---
+
+#### Credit Inquiries
+
+| Column                 | Description                            |
+| ---------------------- | -------------------------------------- |
+| inqLast6Mths           | Credit inquiries in the last 6 months  |
+| inq_last_12m           | Credit inquiries in the last 12 months |
+| inq_fi                 | Personal finance inquiries             |
+| mthsSinceMostRecentInq | Months since the most recent inquiry   |
+
+---
+
+#### Account History
+
+| Column             | Description                           |
+| ------------------ | ------------------------------------- |
+| openAcc            | Number of open credit lines           |
+| totalAcc           | Total credit lines in borrower’s file |
+| num_sats           | Number of satisfactory accounts       |
+| pct_tl_nvr_dlq     | Percentage of trades never delinquent |
+| accOpenPast24Mths  | Accounts opened in the past 24 months |
+| num_tl_op_past_12m | Accounts opened in the past 12 months |
+| open_acc_6m        | Open trades in last 6 months          |
+
+---
+
+#### Installment Accounts
+
+| Column                     | Description                                   |
+| -------------------------- | --------------------------------------------- |
+| num_il_tl                  | Number of installment accounts                |
+| open_act_il                | Active installment trades                     |
+| open_il_12m                | Installment accounts opened in last 12 months |
+| open_il_24m                | Installment accounts opened in last 24 months |
+| total_il_high_credit_limit | Installment credit limit                      |
+
+---
+
+#### Revolving Accounts
+
+| Column              | Description                                 |
+| ------------------- | ------------------------------------------- |
+| num_rev_accts       | Number of revolving accounts                |
+| num_actv_rev_tl     | Active revolving trades                     |
+| num_op_rev_tl       | Open revolving accounts                     |
+| open_rv_12m         | Revolving accounts opened in last 12 months |
+| open_rv_24m         | Revolving accounts opened in last 24 months |
+| num_rev_tl_bal_gt_0 | Revolving trades with balance > 0           |
+
+---
+
+#### Bankcard Accounts
+
+| Column            | Description                                      |
+| ----------------- | ------------------------------------------------ |
+| num_bc_tl         | Number of bankcard accounts                      |
+| num_bc_sats       | Satisfactory bankcard accounts                   |
+| num_actv_bc_tl    | Active bankcard accounts                         |
+| percentBcGt75     | Percentage of bankcards using >75% of limit      |
+| mthsSinceRecentBc | Months since most recent bankcard account opened |
+
+---
+
+#### Mortgage Information
+
+| Column  | Description                 |
+| ------- | --------------------------- |
+| mortAcc | Number of mortgage accounts |
+
+---
+
+#### Collections
+
+| Column       | Description                       |
+| ------------ | --------------------------------- |
+| tot_coll_amt | Total collection amount ever owed |
+
+---
+
+#### Joint Borrower Information
+
+| Column                | Description                       |
+| --------------------- | --------------------------------- |
+| verified_status_joint | Whether joint income was verified |
+| revol_bal_joint       | Joint revolving balance           |
+| dti_joint             | Joint debt-to-income ratio        |
+
+---
+
+#### Secondary Applicant Information
+
+| Column                              | Description                                 |
+| ----------------------------------- | ------------------------------------------- |
+| sec_app_fico_range_low              | Secondary applicant FICO range (low)        |
+| sec_app_fico_range_high             | Secondary applicant FICO range (high)       |
+| sec_app_earliest_cr_line            | Earliest credit line of secondary applicant |
+| sec_app_inq_last_6mths              | Inquiries in last 6 months                  |
+| sec_app_mort_acc                    | Mortgage accounts                           |
+| sec_app_open_acc                    | Open accounts                               |
+| sec_app_revol_util                  | Revolving utilization ratio                 |
+| sec_app_open_act_il                 | Active installment accounts                 |
+| sec_app_num_rev_accts               | Number of revolving accounts                |
+| sec_app_chargeoff_within_12_mths    | Charge-offs in last 12 months               |
+| sec_app_collections_12_mths_ex_med  | Collections excluding medical               |
+| sec_app_mths_since_last_major_derog | Months since major derogatory mark          |
+
+---
+
+#### Platform Information
+
+| Column         | Description                         |
+| -------------- | ----------------------------------- |
+| url            | URL of the loan listing             |
+| ils_exp_d      | Whole loan platform expiration date |
+| serviceFeeRate | Service fee paid by investor        |
+| expDefaultRate | Expected default rate of the loan   |
+
+---
 
 ### Data Provenance:<br>
 Source -> https://www.coursera.org/projects/data-science-coding-challenge-loan-default-prediction<br>
