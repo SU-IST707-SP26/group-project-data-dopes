@@ -1,5 +1,26 @@
 # WORKLOG.md
 
+## 03-06-2026 - Data Preparation and Baseline Model Development (Team)
+
+**Context:** Prepared dataset for model training and developed the first baseline classification model for predicting loan outcomes.
+
+**Work Completed:**
+- Split data into training and test sets (Kasem)
+- Repositioned missing value imputation within preprocessing pipeline (Prerna)
+- Scaled/normalized numerical features (Ashish)
+- Addressed class imbalance (Team)
+- Trained baseline logistic regression model (Kasem)
+- Briefly evaluated model using confusion matrix, classification report, ROC-AUC, and ROC Curve (Team)
+- Completed and submitted mid-term project report (Team)
+
+**Files Created:**
+- `work/Default_Prediction.ipynb`
+- `work/logistic_reg.ipynb`
+- `checkpoint/submission.ipynb`
+
+**Impact:** Established a baseline predictive model and evaluation framework to benchmark future model improvements (M2.T1 through M3.T1 complete)
+
+
 ## 03-04-2026 - Initial Data Cleaning and EDA (Team)
 
 **Context:** Continued cleaning and preparation of the Lending Club dataset for modeling.
