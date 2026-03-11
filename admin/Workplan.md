@@ -14,10 +14,10 @@
 - [✅] M2.T1 - Split data into training and test sets (Kasem)
 - [✅] M2.T2 - Implement missing value imputation strategy (Prerna)
 - [✅] M2.T3 - Scale/normalize numerical features where necessary (Ashish)
-- [✅] M2.T4 - Address class imbalance (class weights or resampling method)
+- [✅] M2.T4 - Address class imbalance (class weights or resampling method) (Team)
 
 ### Milestone 3: Probability of Default Modeling (3/13/26 - 3/23/26)
-- [✅] M3.T1 - Train baseline logistic regression model
+- [✅] M3.T1 - Train baseline logistic regression model (Kasem)
 - [⏳] M3.T2 - Train tree-based model (Random Forest or Gradient Boosting)
 - [⏳] M3.T3 - Perform cross-validation on candidate models
 - [⏳] M3.T4 - Evaluate models using ROC-AUC, Precision-Recall, and F1-score
