@@ -28,7 +28,7 @@
 - Scaled/normalized numerical features (Ashish)
 - Addressed class imbalance (Team)
 - Trained baseline logistic regression model (Kasem)
-- Briefly evaluated model using confusion matrix, classification report, ROC-AUC, and ROC Curve (Team)
+- Briefly evaluated model using confusion matrix, classification report, ROC-AUC, and ROC Curve (Kasem)
 - Completed and submitted mid-term project report (Team)
 
 **Files Created:**
