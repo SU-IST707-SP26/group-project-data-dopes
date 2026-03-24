@@ -1,5 +1,23 @@
 # WORKLOG.md
 
+## 03-22-2026 - Tree-Based Model Development (XGBoost) (Team)
+
+**Context:** Implemented a tree-based model and further evaluated baseline performance for predicting loan outcomes.
+
+**Work Completed:**
+- Trained XGBoost model using same preprocessing pipeline (Ashish)
+- Evaluated XGBoost using ROC-AUC, confusion matrix, and classification metrics (Ashish)
+- Analyzed feature importance from XGBoost model (Ashish)
+- Performed cross-validation on logistic regression model (Hazem)
+- Calculated mean CV F1-score and ROC-AUC for baseline model (Hazem)
+- Compared XGBoost performance to logistic regression baseline (Team)
+
+**Files Created:**
+- `work/XGBoost_model.ipynb`
+
+**Impact:** Found similar performance between XGBoost and logistic regression while improving evaluation of the baseline model (M3.T2 through M3.T4 complete)
+
+
 ## 03-06-2026 - Data Preparation and Baseline Model Development (Team)
 
 **Context:** Prepared dataset for model training and developed the first baseline classification model for predicting loan outcomes.
