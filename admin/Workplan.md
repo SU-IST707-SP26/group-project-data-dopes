@@ -22,7 +22,7 @@
 - [✅] M3.T3 - Perform cross-validation on candidate models (Hazem)
 - [✅] M3.T4 - Evaluate models using ROC-AUC, Precision-Recall, and F1-score (Team)
 - [✅] M3.T5 - Calibrate predicted probabilities (Platt scaling or isotonic regression) (Prerna)
-- [✅] M3.T6 - Select final model and export predicted probabilities
+- [✅] M3.T6 - Select final model and export predicted probabilities (Kasem)
 
 ### Milestone 4: Financial Model Construction (3/24/26 - 4/3/26)
 - [⏳] M4.T1 - Create financial ratio features (DTI, income-to-loan ratio, etc.) (Will do this for policy model)
