@@ -1,5 +1,21 @@
 # WORKLOG.md
 
+## 03-26-2026 - Probability Calibration and Threshold Optimization (Prerna & Kasem)
+
+**Context:** Improved reliability of predicted probabilities from the XGBoost model to better support financial decision-making and risk-based optimization.
+
+**Work Completed:**
+- Applied probability calibration using Platt Scaling (sigmoid) and isotonic regression, and generated calibration curves to compare results (Prerna)
+- Evaluated calibrated models and optimized classification threshold to maximize F1-score (Prerna)
+- Ran and verified calibration and evaluation code (Kasem)
+
+**Files Created:**
+- `work/xgb_evaluation.png`
+- `work/xgb_feature_importance.png`
+
+**Impact:** Calibration improved probability alignment, but overall model performance remained largely unchanged with only minor gains (M3.T5 complete)
+
+
 ## 03-22-2026 - Tree-Based Model Development (XGBoost) (Team)
 
 **Context:** Implemented a tree-based model and further evaluated baseline performance for predicting loan outcomes.
