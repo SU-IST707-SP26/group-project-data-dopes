@@ -25,7 +25,7 @@
 - [✅] M3.T6 - Select final model and export predicted probabilities (Kasem)
 
 ### Milestone 4: Financial Model Construction (3/24/26 - 4/3/26)
-- [⏳] M4.T1 - Create financial ratio features (DTI, income-to-loan ratio, etc.) (Will do this for policy model)(Hazem)
+- [✅] M4.T1 - Create financial ratio features (DTI, income-to-loan ratio, etc.) (Will do this for policy model)(Hazem)
 - [⏳] M4.T2 - Implement loan revenue calculation function (based on amount, rate, term)(Ashish)
 - [⏳] M4.T3 - Implement Loss Given Default (LGD) assumption or calculation(Kasem)
 - [⏳] M4.T4 - Compute expected profit for each borrower using PD outputs(Kasem)
