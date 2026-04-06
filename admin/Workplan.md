@@ -26,11 +26,11 @@
 
 ### Milestone 4: Financial Model Construction (3/24/26 - 4/3/26)
 - [✅] M4.T1 - Create financial ratio features (DTI, income-to-loan ratio, etc.) (Will do this for policy model)(Hazem)
-- [⏳] M4.T2 - Implement loan revenue calculation function (based on amount, rate, term)(Ashish)
+- [✅] M4.T2 - Implement loan revenue calculation function (based on amount, rate, term)(Ashish)
 - [⏳] M4.T3 - Implement Loss Given Default (LGD) assumption or calculation(Kasem)
 - [⏳] M4.T4 - Compute expected profit for each borrower using PD outputs(Hazem)
 - [⏳] M4.T5 - Validate expected profit outputs using test cases(Prerna)
-- [⏳] M4.T6 - Generate summary statistics of expected profit distribution (Ashish)
+- [⏳] M4.T6 - Generate summary statistics of expected profit distribution (Prerna)
 
 ### Milestone 5: Loan Size Simulation & Optimization (4/4/26 - 4/14/26)
 - [ ] M5.T1 - Create simulated loan size grid
