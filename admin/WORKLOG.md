@@ -1,13 +1,30 @@
 # WORKLOG.md
 
-## 03-26-2026 - Probability Calibration and Threshold Optimization (Prerna & Kasem)
+## 04-06-2026 - Financial Feature Engineering and Policy Simulation Prep (Team)
+
+**Context:** Began preparing dataset and framework for loan optimization and policy simulation.
+
+**Work Completed:**
+- Ran Breusch-Pagan test to check for heteroskedasticity (Hazem)
+- Recomputed dataset to include required variables for policy simulation (Kasem)
+- Generated updated test set using new dataset (Kasem)
+- Created initial financial ratio features for modeling (Hazem)
+- Implemented loan revenue calculation for optimization framework (Ashish)
+
+**Files Created:**
+- `Data_Prep_for_Policy_Simulation.ipynb`
+
+**Impact:** Established foundation for policy simulation and financial modeling; feature engineering still in progress (M3.T6 through M4.T2 complete)
+
+
+## 03-26-2026 - Probability Calibration and Threshold Optimization (Prerna)
 
 **Context:** Improved reliability of predicted probabilities from the XGBoost model to better support financial decision-making and risk-based optimization.
 
 **Work Completed:**
-- Applied probability calibration using Platt Scaling (sigmoid) and isotonic regression, and generated calibration curves to compare results (Prerna)
+- Applied probability calibration using Platt Scaling (sigmoid) and isotonic regression (Prerna)
+- Generated calibration curves to compare results (Prerna)
 - Evaluated calibrated models and optimized classification threshold to maximize F1-score (Prerna)
-- Ran and verified calibration and evaluation code (Kasem)
 
 **Files Created:**
 - `work/xgb_evaluation.png`
