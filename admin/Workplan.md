@@ -30,14 +30,14 @@
 - [✅] M4.T3 - Implement Loss Given Default (LGD) assumption or calculation(Kasem)
 - [✅] M4.T4 - Compute expected profit for each borrower using PD outputs(Hazem)
 - [✅] M4.T5 - Validate expected profit outputs using test cases(Prerna)
-- [⏳] M4.T6 - Generate summary statistics of expected profit distribution (Prerna)
+- [✅] M4.T6 - Generate summary statistics of expected profit distribution (Prerna)
 
 ### Milestone 5: Loan Size Simulation & Optimization (4/4/26 - 4/14/26)
-- [ ] M5.T1 - Create simulated loan size grid
-- [ ] M5.T2 - Recalculate expected profit for each simulated loan size
-- [ ] M5.T3 - Introduce risk-adjusted objective function
-- [ ] M5.T4 - Identify profit-maximizing loan size per borrower
-- [ ] M5.T5 - Compare optimized loan sizes to original loan amounts
+- [⏳] M5.T1 - Create simulated loan size grid(Hazem)
+- [⏳] M5.T2 - Recalculate expected profit for each simulated loan size(Kasem)
+- [⏳] M5.T3 - Introduce risk-adjusted objective function(Ashish)
+- [⏳] M5.T4 - Identify profit-maximizing loan size per borrower(Prerna)
+- [⏳] M5.T5 - Compare optimized loan sizes to original loan amounts(Kasem)
 
 ### Milestone 6: Subgroup & Policy Analysis (4/15/26 - 4/22/26)
 - [ ] M6.T1 - Filter dataset for underserved borrower subgroup
