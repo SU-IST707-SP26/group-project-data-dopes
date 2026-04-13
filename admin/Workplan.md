@@ -40,11 +40,11 @@
 - [⏳] M5.T5 - Compare optimized loan sizes to original loan amounts(Kasem)
 
 ### Milestone 6: Subgroup & Policy Analysis (4/15/26 - 4/22/26)
-- [ ] M6.T1 - Filter dataset for underserved borrower subgroup
-- [ ] M6.T2 - Compare expected profit before vs after optimization for subgroup
-- [ ] M6.T3 - Compare default rates under traditional approval vs optimized strategy
-- [ ] M6.T4 - Generate visualizations (profit curves, risk-return tradeoff plots)
-- [ ] M6.T5 - Summarize key policy findings in written format
+- [⏳] M6.T1 - Filter dataset for underserved borrower subgroup(Kasem)
+- [⏳] M6.T2 - Compare expected profit before vs after optimization for subgroup(Ashish)
+- [⏳] M6.T3 - Compare default rates under traditional approval vs optimized strategy(Ashish)
+- [⏳] M6.T4 - Generate visualizations (profit curves, risk-return tradeoff plots)(Hazem)
+- [⏳] M6.T5 - Summarize key policy findings in written format(Prerna)
 
 ### Milestone 7: Presentation Preparation (4/23/26 - 4/27/26)
 - [ ] M7.T1 - Create final presentation slides
