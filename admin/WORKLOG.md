@@ -1,5 +1,25 @@
 # WORKLOG.md
 
+## 04-10-2026 - Expected Profit Modeling and Portfolio Analysis (Team)
+
+**Context:** Developed and validated expected profit framework using model outputs to support loan-level decision making and portfolio analysis.
+
+**Work Completed:**
+- Calculated Loss Given Default (LGD) using recovery-based approach on defaulted loans (Kasem)
+- Analyzed and visualized LGD distribution overall and by loan sub-grade (Kasem)
+- Mapped expected LGD by sub-grade into policy dataset with fallback to overall mean (Hazem)
+- Computed expected revenue, loss, and profit for each borrower using predicted default probabilities (PD) and LGD (Hazem)
+- Validated expected profit calculations using test cases across different risk levels (Prerna)
+- Generated summary statistics of expected profit distribution (e.g., mean, median, total profit) (Prerna)
+- Created visualizations to analyze profit distribution, risk-return patterns, and portfolio performance (Ashish)
+
+**Files Created:**
+- `lgd_by_grade.png`
+- `lgd_distribution_by_grade.png`
+
+**Impact:** Established a risk-adjusted profit framework and provided insights into portfolio performance, enabling more informed lending and policy decisions (M4.T3 through M4.T6 complete)
+
+
 ## 04-06-2026 - Financial Feature Engineering and Policy Simulation Prep (Team)
 
 **Context:** Began preparing dataset and framework for loan optimization and policy simulation.
