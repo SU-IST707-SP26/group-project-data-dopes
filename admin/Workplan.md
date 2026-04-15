@@ -33,7 +33,7 @@
 - [✅] M4.T6 - Generate summary statistics of expected profit distribution (Prerna)
 
 ### Milestone 5: Loan Size Simulation & Optimization (4/4/26 - 4/14/26)
-- [⏳] M5.T1 - Create simulated loan size grid(Hazem)
+- [✅] M5.T1 - Create simulated loan size grid(Hazem)
 - [⏳] M5.T2 - Recalculate expected profit for each simulated loan size(Kasem)
 - [⏳] M5.T3 - Introduce risk-adjusted objective function(Ashish)
 - [⏳] M5.T4 - Identify profit-maximizing loan size per borrower(Prerna)
