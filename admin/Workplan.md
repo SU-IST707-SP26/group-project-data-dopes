@@ -43,14 +43,14 @@
 - [✅] M6.T1 - Filter dataset for underserved borrower subgroup(Kasem)
 - [✅] M6.T2 - Compare expected profit before vs after optimization for subgroup(Ashish)
 - [✅] M6.T3 - Compare default rates under traditional approval vs optimized strategy(Ashish)
-- [⏳] M6.T4 - Generate visualizations (profit curves, risk-return tradeoff plots)(Hazem)
+- [✅] M6.T4 - Generate visualizations (profit curves, risk-return tradeoff plots)(Hazem)
 - [⏳] M6.T5 - Summarize key policy findings in written format(Prerna)
 
 ### Milestone 7: Presentation Preparation (4/23/26 - 4/27/26)
-- [ ] M7.T1 - Create final presentation slides
-- [ ] M7.T2 - Integrate charts and optimization visuals
-- [ ] M7.T3 - Draft presentation script
-- [ ] M7.T4 - Present findings
+- [⏳] M7.T1 - Create final presentation slides (Team)
+- [⏳] M7.T2 - Integrate charts and optimization visuals (Team)
+- [⏳] M7.T3 - Draft presentation script (Team)
+- [⏳] M7.T4 - Present findings (Team)
 
 ### Milestone 8: Final Report Completion (4/28/26 - 5/6/26)
 - [ ] M8.T1 - Write Introduction section
