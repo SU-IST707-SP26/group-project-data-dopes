@@ -37,10 +37,10 @@
 - [✅] M5.T2 - Recalculate expected profit for each simulated loan size(Kasem)
 - [✅] M5.T3 - Introduce risk-adjusted objective function(Ashish)
 - [✅] M5.T4 - Identify profit-maximizing loan size per borrower(Prerna)
-- [⏳] M5.T5 - Compare optimized loan sizes to original loan amounts(Kasem)
+- [✅] M5.T5 - Compare optimized loan sizes to original loan amounts(Kasem)
 
 ### Milestone 6: Subgroup & Policy Analysis (4/15/26 - 4/22/26)
-- [⏳] M6.T1 - Filter dataset for underserved borrower subgroup(Kasem)
+- [✅] M6.T1 - Filter dataset for underserved borrower subgroup(Kasem)
 - [⏳] M6.T2 - Compare expected profit before vs after optimization for subgroup(Ashish)
 - [⏳] M6.T3 - Compare default rates under traditional approval vs optimized strategy(Ashish)
 - [⏳] M6.T4 - Generate visualizations (profit curves, risk-return tradeoff plots)(Hazem)
