@@ -1,5 +1,23 @@
 # WORKLOG.md
 
+## 04-17-2026 - Loan Size Optimization and Policy Comparison (Team)
+
+**Context:** Compared optimized loan amounts against original loan decisions to evaluate the impact of the risk-adjusted lending policy on borrower-level loan sizing and portfolio structure.
+
+**Work Completed:**
+- Created simulated loan size grid and recalculated key financial ratios (Hazem)
+- Recalculated expected revenue, loss, and profit for each simulated loan size using PD and LGD (Kasem)
+- Introduced risk-adjusted objective function incorporating default risk and borrower affordability constraints (Ashish)
+- Identified profit-maximizing loan size per borrower based on objective score and applied profitability constraints (Prerna)
+- Created loan difference and percentage change columns to compare optimized vs original loan amounts (Kasem)
+- Analyzed loan size adjustments using multiplier distribution and segment-level summaries across risk groups (Kasem)
+
+**Files Created:**
+- `Policy_Simulation.ipynb`
+
+**Impact:** Quantified how the optimized lending policy reshapes loan sizing across risk segments, showing systematic adjustments toward higher or lower loan amounts based on risk-adjusted profitability (M5.T1 through M5.T5 complete)
+
+
 ## 04-10-2026 - Expected Profit Modeling and Portfolio Analysis (Team)
 
 **Context:** Developed and validated expected profit framework using model outputs to support loan-level decision making and portfolio analysis.
