@@ -44,7 +44,7 @@
 - [✅] M6.T2 - Compare expected profit before vs after optimization for subgroup(Ashish)
 - [✅] M6.T3 - Compare default rates under traditional approval vs optimized strategy(Ashish)
 - [✅] M6.T4 - Generate visualizations (profit curves, risk-return tradeoff plots)(Hazem)
-- [⏳] M6.T5 - Summarize key policy findings in written format(Prerna)
+- [✅] M6.T5 - Summarize key policy findings in written format(Prerna)
 
 ### Milestone 7: Presentation Preparation (4/23/26 - 4/27/26)
 - [⏳] M7.T1 - Create final presentation slides (Team)
