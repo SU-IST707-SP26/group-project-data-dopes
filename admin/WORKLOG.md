@@ -1,5 +1,20 @@
 # WORKLOG.md
 
+## 04-22-2026 - Policy Evaluation and Underserved Borrower Analysis (Team)
+
+**Context:** Evaluated the optimized lending policy by analyzing underserved borrower segments and assessing changes in profit, risk, and portfolio performance.
+
+**Work Completed:**
+- Identified underserved borrowers based on DTI and employment criteria and merged with optimized loan outcomes (Kasem)
+- Compared expected profit before and after optimization for underserved borrowers to evaluate profit lift and policy impact (Ashish)
+- Compared default rates under traditional and optimized strategies to assess risk reduction and approval outcomes (Ashish)
+- Generated cumulative profit curves to evaluate portfolio performance and optimized lending decisions (Hazem)
+- Created risk-return and policy behavior visualizations to analyze tradeoffs between default risk and profitability (Hazem)
+- Summarized key policy findings including model performance, LGD distribution, and portfolio profitability (Prerna)
+
+**Impact:** Showed that the optimized policy improves profitability while reducing default risk, particularly for underserved borrowers, and highlighted areas where policy decisions and data assumptions require further refinement through model tuning (M6.T1 through M6.T5 complete)
+
+
 ## 04-16-2026 - Loan Size Optimization and Policy Comparison (Team)
 
 **Context:** Compared optimized loan amounts against original loan decisions to evaluate the impact of the risk-adjusted lending policy on borrower-level loan sizing and portfolio structure.
